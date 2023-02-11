@@ -1,3 +1,9 @@
+# Calculator
+
+A simple calculator devloped with React JS,React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
+
+# Check it out here: https://ajayvijendran.github.io/REACT-to-my-calculator/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
