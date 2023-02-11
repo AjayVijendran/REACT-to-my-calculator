@@ -1,0 +1,58 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, yellow, brown);
+}
+
+.calc-container {
+  margin-top: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.calc-container button {
+  outline: none;
+  font-size: xx-large;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.calc-container button:hover, .calc-container button:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+[class^=row-] {
+  display: flex;
+  height: 15vh;
+  width: 80vh;
+}
+
+.doubleBreadth {
+  flex-basis: 50%;
+}
+
+button {
+  flex-basis: 25%;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+  height: 15vh;
+  background-color: rgba(15, 16, 15, 0.75);
+  width: 80vh;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.output .previousOperand {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: medium;
+}
+.output .currentOperand {
+  color: white;
+  font-size: xx-large;
+}/*# sourceMappingURL=styles.css.map */
